@@ -1,5 +1,5 @@
 # CarsWeb
-Javascript Slider 공부를 위해 연습용 간단한 자동차 소개 페이지를 제작했다.
+Javascript Slider 공부를 위해 평소 좋아하는 자동차로 간단한 소개 페이지를 제작했다.
 <h2>특징</h2>
 <ul>
   <li>첫 Index 페이지에서 아무 곳이나 클릭시 다음 페이지로 넘어감.</li>
