@@ -8,4 +8,4 @@ Javascript Slider 공부를 위해 평소 좋아하는 자동차로 간단한 �
   <li>사진 Fade 애니메이션 적용.</li>
   <li>버튼을 통해 이전/다음 사진으로 넘어갈 수 있는 기능을 갖춘 슬라이더.</li>
 </ul>
-<h2>https://kimhyungtae9707.github.io/CarsWeb/</h2>
+Link: https://kimhyungtae9707.github.io/CarsWeb/
