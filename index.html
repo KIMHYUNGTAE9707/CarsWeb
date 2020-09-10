@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Car Page</title>
+    <style>
+    html, body {
+      height: 100%;
+      margin: 0;
+      overflow: hidden;
+    }
+    .center {
+      width: 100%;
+    }
+
+    #image {
+      max-height: 30%;
+      position: absolute;
+      top: 0px;
+      bottom: 0;
+      left: 0;
+      right: 0;
+      margin: auto;
+    }
+
+    .firstWords {
+      display:inline;
+      width:100%
+      height: 150px;
+      vertical-align: middle;
+      margin-left: auto;
+      mrgin-right: auto;
+    }
+
+    .firstWords p {
+      color: white;
+      font-weight: bold;
+      text-align: center;
+    }
+    </style>
+  </head>
+  <body style="background-color:black;" onclick="window.location.href='page/index(MAIN).html';">
+    <div class="center">
+    <img id="image">
+    <script>
+
+      var imagesources = ["images/logos/bentleylogo.png", "images/logos/bmwlogo.png", "images/logos/corvettelogo.png", "images/logos/ferrarilogo.png", "images/logos/genesislogo.png", "images/logos/landroverlogo.png", "images/logos/mercedesbenzlogo.png", "images/logos/porschelogo.png"]
+
+      var index = 0;
+
+      function fn(){
+        if(index === imagesources.length){
+          index = 0;
+        }
+        document.getElementById("image").src = imagesources[index];
+        index++;
+      }
+
+      function setIntervalExecute(fn, t){
+        fn();
+        return(setInterval(fn, t));
+      }
+
+      setIntervalExecute(fn, 2500);
+
+    </script>
+    </div>
+
+  </body>
+  <footer>
+    <div class='firstWords'>
+      <p>Click on anywhere to start</p>
+    </div>
+  </footer>
+</html>

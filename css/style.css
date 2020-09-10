@@ -1,0 +1,145 @@
+body {
+  background-color: black;
+}
+.backgroundimagescontainer{
+  display: block;
+  text-align: center;
+  max-height: 15%
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+.backgroundimages {
+  width: 80%;
+}
+#topMenu {
+  display: block;
+  line-height: 70px;
+  vertical-align: middle;
+  background: black;
+  overflow: hidden;
+  margin-left: 20%;
+  margin-right: 20%;
+}
+#topMenu a {
+  float: left;
+  width: 33%;
+  color: white;
+  font-weight: bold;
+  text-decoration: none;
+  height: 70px;
+  text-align: center;
+}
+#topMenu a:hover {
+  color: gray;
+}
+#topMenu .presentMenu {
+  color: #3B9997;
+}
+
+* {box-sizing: border-box}
+/* 슬라이드 컨테이너 */
+.slideshow-container{
+  max-width: 70%;
+  position: relative;
+  margin: auto;
+}
+
+.dotcontainer {
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+}
+
+/* default 값에 따라 이미지 숨김 */
+.mySlides {
+  display: none;
+}
+
+/* 이전, 다음 버튼 */
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  margin-top: -22px;
+  paddig: 16px;
+  color: #FDFEFE ;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 1s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+}
+
+/* 다음 버튼 */
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+/* 자동차 설명 */
+.text {
+  color: #FDFEFE ;
+  font-size: 15px;
+  font-weight: bold;
+  padding: 8px 12px;
+  position: absolute;
+  bottom: 8px;
+  width: 100%;
+  text-align: center;
+}
+
+/* 페이지 번호 */
+.numbertext {
+  color: #FDFEFE ;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+/* dots */
+.dot {
+  cursor: pointer;
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: white;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+  position: relative;
+}
+
+.active, .dot:hover {
+  background-color: #273746;
+}
+
+/* Fade */
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 2s;
+  animation-name: fade;
+  animation-duration: 2s;
+}
+
+@-webkit-keyframes fade {
+  from {opacity: .4}
+  to {opacity: 1}
+}
+
+@keyframes fade {
+  from {opacity: .4}
+  to {opacity: 1}
+}
+
+.infoText {
+  height:100px;
+  vertical-align: middle;
+  text-align: center;
+  color: white;
+  font-size: 16px;
+  margin-top: 15%;
+  margin-bottom: 0%;
+}

@@ -1,0 +1,53 @@
+../<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+    <link rel='stylesheet' href='../css/style.css'></link>
+  </head>
+  <body>
+    <div class='backgroundimagescontainer'>
+    <img class='backgroundimages' src="../images/backgroundimages/nightcity.jpg" onclick="location.href='index(MAIN).html';">
+    </div>
+    <br>
+    <br>
+    <!-- 메뉴 -->
+    <nav id='topMenu'>
+      <a href='index(GT).html'>GT</a>
+      <a class='presentMenu' href='index(SPORT).html'>SPORT MACHINE</a>
+      <a href='index(SUV).html'>SUV</a>
+    </nav>
+    <br>
+    <!-- 슬라이더 -->
+    <div class='slideshow-container'>
+      <!-- 이미지와 캡션 -->
+      <div class='mySlides fade'>
+        <div class='numbertext'>1 / 2</div>
+        <img src='../images/cars/CorvetteZR1.jpg' style='width: 100%'>
+        <div class='text'>Corvette ZR1</div>
+      </div>
+
+      <div class='mySlides fade'>
+        <div class='numbertext'>2 / 2</div>
+        <img src='../images/cars/porsche911.jpg' style='width: 100%'>
+        <div class='text'>Porsche 911</div>
+      </div>
+
+      <!-- 이전, 다음 버튼 -->
+      <a class='prev' onclick='plusSlides(-1)'>&#10094;</a>
+      <a class='next' onclick='plusSlides(1)'>&#10095;</a>
+    </div>
+    <br>
+    <!-- 이미지 구슬 -->
+    <div class='dotcontainer'>
+      <span class='dot' onclick='currentSlide(1)'></span>
+      <span class='dot' onclick='currentSlide(2)'></span>
+    </div>
+
+    <script src='../js/Slider.js'></script>
+
+    <br>
+    <br>
+    <br>
+  </body>
+</html>
